@@ -8,6 +8,10 @@ prequisitos: php: ^8.1.4 e composer ^2.3.5
 cp .env.example .env
 ```
 
+```bash
+php artisan key:generate
+```
+
 Pacotes Laravel
 ```Bash
 composer install
@@ -35,6 +39,16 @@ Iniciando NPM
 ```bash
 npm run dev
 ```
+## Usuários
+```bash
+Email: admin@admin.com
+Senha: admin@admin.com
+```
+```bash
+Email: comum@comum.com
+Senha: comum@comum.com
+```
+
 
 ## Features
 

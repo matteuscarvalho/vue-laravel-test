@@ -25,7 +25,7 @@ npm install
 Banco de Dados
 
 ```bash
-php artisan migrate
+php artisan migrate --seed
 ```
 
 Iniciando Laravel
@@ -48,7 +48,6 @@ Senha: admin@admin.com
 Email: comum@comum.com
 Senha: comum@comum.com
 ```
-
 
 ## Features
 

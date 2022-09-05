@@ -47,7 +47,7 @@ class RegisteredUserController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
-        $comum = Role::findById(1);
+        $comum = Role::findById(2);
         $user->assignRole($comum);
 
         event(new Registered($user));
